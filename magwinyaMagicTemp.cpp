@@ -30,7 +30,7 @@ int main() {
         cout << "Increase the fryer heat before taking the third reading"<<endl ; 
     } 
 
-    //Tell user to enter third temperature reading
+    //prompt user to enter third temperature reading
     cout << "Enter the third temperature reading"<<endl;
     //store temperaure reading to a variable
     cin >> third_temp;
