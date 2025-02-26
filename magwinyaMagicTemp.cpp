@@ -10,13 +10,13 @@ int main() {
     int difference_temp;
 
     //Tell user to enter first temperature reading
-    cout << "Enter the first temperature reading";
+    cout << "Enter the first temperature reading"<<endl;
     //store temperaure reading to a variable
     cin >> first_temp;
 
-    //Tell user to enter secont temperature reading
-    cout << "Enter the second temperature reading";
-    //store temperaure reading to a variable
+    //Tell user to enter second temperature reading
+    cout << "Enter the second temperature reading"<<endl;
+    //store temperature reading to a variable
     cin >> second_temp;
     
     //calculate temperature difference
@@ -25,19 +25,19 @@ int main() {
     // checking temperature difference and tell user to decrease or increase it
 
     if(difference_temp > 50){
-        cout << "Reduce the fryer heat before taking the third reading";
+        cout << "Reduce the fryer heat before taking the third reading"<<endl;
     } else if (difference_temp < 10){
-        cout << "Increase the fryer heat before taking the third reading" ; 
+        cout << "Increase the fryer heat before taking the third reading"<<endl ; 
     } 
 
     //Tell user to enter third temperature reading
-    cout << "Enter the third temperature reading";
+    cout << "Enter the third temperature reading"<<endl;
     //store temperaure reading to a variable
     cin >> third_temp;
     if(third_temp > 150 && third_temp < 190){
-        cout << "Y ou may start frying the Magwinyas";
+        cout << "You may start frying the Magwinyas"<<endl;
     } else {
-        cout << "Oil is not ready for fryingg";
+        cout << "Oil is not ready for frying"<<endl;
     }
 
     return 0;
